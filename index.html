@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Candy Spark 🍬</title>
+  <!-- optional favicon (place candy.png next to these files) -->
+  <link rel="icon" type="image/png" href="candy.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🍭 Candy Spark</h1>
+
+  <div class="info">
+    <div class="label">Score: <span id="score">0</span></div>
+    <div class="label">Highest: <span id="highest">0</span></div>
+    <div class="label">
+      Time: <span id="time">2:00</span>
+      <div class="time-bar"><div id="bar" class="bar"></div></div>
+    </div>
+
+    <button id="startBtn">▶ Start</button>
+    <button id="resetBtn">🔄 Reset</button>
+  </div>
+
+  <div id="board" aria-label="Candy board"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
